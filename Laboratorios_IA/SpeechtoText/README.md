@@ -1,0 +1,1 @@
+# Laboratorio Pasar Audio a Texto con ayuda de Speech de Azure
