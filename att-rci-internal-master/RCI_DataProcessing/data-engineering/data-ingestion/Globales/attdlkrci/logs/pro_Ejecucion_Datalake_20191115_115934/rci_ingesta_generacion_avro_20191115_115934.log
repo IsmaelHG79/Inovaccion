@@ -1,0 +1,36 @@
+Inicio ejecucion     : 2019-11-15 11:59:34
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-15 11:59:34 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-15 11:59:34 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-15 11:59:34 .... *****************************************************
+2019-11-15 11:59:34 .... Fecha entera obtenida: 20191115
+2019-11-15 11:59:34 .... Fecha anterior obtenida: 20191115
+2019-11-15 11:59:34 .... *****************************************************
+2019-11-15 11:59:34 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_fixed_asset.avsc
+2019-11-15 11:59:34 .... Se creara tabla: tx_fixed_asset
+2019-11-15 11:59:34 .... Location es: hdfs:/data/RCI/stg/hive/staging/AF
+2019-11-15 11:59:34 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-15 11:59:34 .... *****************************************************
+2019-11-15 11:59:34 .... Generar el avsc generico
+2019-11-15 11:59:34 .... Schema:/files/working_dir/RCIschemas/tx_fixed_asset.avsc.
+2019-11-15 11:59:34 .... Contador:1.
+2019-11-15 11:59:34 .... leer procesados de:
+2019-11-15 11:59:34 .... /files/working_dir/RCIschemas/processed/tx_fixed_asset.avsc_processed
+2019-11-15 11:59:34 .... Archivo hist:
+2019-11-15 11:59:34 .... No hay cambios:create
+2019-11-15 11:59:42 .... *****************************************************
+2019-11-15 11:59:42 .... 2)Resultado de kite-dataset create tx_fixed_asset
+2019-11-15 11:59:42 .... 1
+2019-11-15 11:59:42 .... *****************************************************
+2019-11-15 11:59:51 .... *****************************************************
+2019-11-15 11:59:51 .... 3)Resultado de kite-dataset schema tx_fixed_asset
+2019-11-15 11:59:51 .... 1
+2019-11-15 11:59:51 .... *****************************************************
+2019-11-15 11:59:51 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-15 11:59:51 .... ./files/working_dir/RCIschemas/tx_fixed_asset.avsc.
+2019-11-15 11:59:51 .... ./files/working_dir/RCIschemas/tx_fixed_asset.avsc.
+2019-11-15 11:59:51 .... name:/files/working_dir/RCIschemas/processed/tx_fixed_asset.avsc_processed.
+2019-11-15 11:59:51 .... *****************************************************

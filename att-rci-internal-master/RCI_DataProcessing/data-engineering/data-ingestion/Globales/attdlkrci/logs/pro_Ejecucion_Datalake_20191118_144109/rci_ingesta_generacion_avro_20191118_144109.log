@@ -1,0 +1,37 @@
+Inicio ejecucion     : 2019-11-18 14:41:09
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-18 14:41:10 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-18 14:41:10 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-18 14:41:10 .... *****************************************************
+2019-11-18 14:41:10 .... Fecha entera obtenida: 20191118
+2019-11-18 14:41:10 .... Fecha anterior obtenida: 20191118
+2019-11-18 14:41:10 .... *****************************************************
+2019-11-18 14:41:10 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_finance_cip.avsc
+2019-11-18 14:41:10 .... Se creara tabla: tx_finance_cip
+2019-11-18 14:41:10 .... Location es: hdfs:/data/RCI/stg/hive/staging/CIP
+2019-11-18 14:41:10 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-18 14:41:10 .... *****************************************************
+2019-11-18 14:41:10 .... Generar el avsc generico
+2019-11-18 14:41:10 .... Schema:/files/working_dir/RCIschemas/tx_finance_cip.avsc.
+2019-11-18 14:41:10 .... Contador:1.
+2019-11-18 14:41:10 .... leer procesados de:
+2019-11-18 14:41:10 .... /files/working_dir/RCIschemas/processed/tx_finance_cip.avsc_processed
+2019-11-18 14:41:10 .... Archivo hist:/files/working_dir/RCIschemas/processed/tx_finance_cip.avsc_processed
+2019-11-18 14:41:10 .... diferencia:Files /files/working_dir/RCIschemas/processed/tx_finance_cip.avsc_processed and /files/working_dir/RCIschemas/tx_finance_cip.avsc differ.
+2019-11-18 14:41:10 .... Si hubo cambios:update
+2019-11-18 14:41:19 .... *****************************************************
+2019-11-18 14:41:19 .... 2)Resultado de kite-dataset update tx_finance_cip
+2019-11-18 14:41:19 .... 0
+2019-11-18 14:41:19 .... *****************************************************
+2019-11-18 14:41:29 .... *****************************************************
+2019-11-18 14:41:29 .... 3)Resultado de kite-dataset schema tx_finance_cip
+2019-11-18 14:41:29 .... 0
+2019-11-18 14:41:29 .... *****************************************************
+2019-11-18 14:41:29 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-18 14:41:29 .... ./files/working_dir/RCIschemas/tx_finance_cip.avsc.
+2019-11-18 14:41:29 .... ./files/working_dir/RCIschemas/tx_finance_cip.avsc.
+2019-11-18 14:41:29 .... name:/files/working_dir/RCIschemas/processed/tx_finance_cip.avsc_processed.
+2019-11-18 14:41:29 .... *****************************************************

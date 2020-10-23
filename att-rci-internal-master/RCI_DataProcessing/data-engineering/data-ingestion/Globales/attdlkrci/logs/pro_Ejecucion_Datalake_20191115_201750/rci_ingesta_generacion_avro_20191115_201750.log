@@ -1,0 +1,37 @@
+Inicio ejecucion     : 2019-11-15 20:17:50
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-15 20:17:50 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-15 20:17:50 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-15 20:17:50 .... *****************************************************
+2019-11-15 20:17:50 .... Fecha entera obtenida: 20191115
+2019-11-15 20:17:50 .... Fecha anterior obtenida: 20191115
+2019-11-15 20:17:50 .... *****************************************************
+2019-11-15 20:17:50 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_netcm_cisco_epn.avsc
+2019-11-15 20:17:50 .... Se creara tabla: tx_netcm_cisco_epn
+2019-11-15 20:17:50 .... Location es: hdfs:/data/RCI/stg/hive/staging/Gestores/NETCM/EPN
+2019-11-15 20:17:50 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-15 20:17:50 .... *****************************************************
+2019-11-15 20:17:50 .... Generar el avsc generico
+2019-11-15 20:17:50 .... Schema:/files/working_dir/RCIschemas/tx_netcm_cisco_epn.avsc.
+2019-11-15 20:17:50 .... Contador:1.
+2019-11-15 20:17:50 .... leer procesados de:
+2019-11-15 20:17:50 .... /files/working_dir/RCIschemas/processed/tx_netcm_cisco_epn.avsc_processed
+2019-11-15 20:17:50 .... Archivo hist:/files/working_dir/RCIschemas/processed/tx_netcm_cisco_epn.avsc_processed
+2019-11-15 20:17:50 .... diferencia:Files /files/working_dir/RCIschemas/processed/tx_netcm_cisco_epn.avsc_processed and /files/working_dir/RCIschemas/tx_netcm_cisco_epn.avsc differ.
+2019-11-15 20:17:50 .... Si hubo cambios:update
+2019-11-15 20:17:59 .... *****************************************************
+2019-11-15 20:17:59 .... 2)Resultado de kite-dataset update tx_netcm_cisco_epn
+2019-11-15 20:17:59 .... 0
+2019-11-15 20:17:59 .... *****************************************************
+2019-11-15 20:18:08 .... *****************************************************
+2019-11-15 20:18:08 .... 3)Resultado de kite-dataset schema tx_netcm_cisco_epn
+2019-11-15 20:18:08 .... 0
+2019-11-15 20:18:08 .... *****************************************************
+2019-11-15 20:18:08 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-15 20:18:08 .... ./files/working_dir/RCIschemas/tx_netcm_cisco_epn.avsc.
+2019-11-15 20:18:08 .... ./files/working_dir/RCIschemas/tx_netcm_cisco_epn.avsc.
+2019-11-15 20:18:08 .... name:/files/working_dir/RCIschemas/processed/tx_netcm_cisco_epn.avsc_processed.
+2019-11-15 20:18:08 .... *****************************************************

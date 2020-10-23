@@ -1,0 +1,36 @@
+Inicio ejecucion     : 2019-11-15 15:18:40
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-15 15:18:40 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-15 15:18:40 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-15 15:18:40 .... *****************************************************
+2019-11-15 15:18:40 .... Fecha entera obtenida: 20191115
+2019-11-15 15:18:40 .... Fecha anterior obtenida: 20191115
+2019-11-15 15:18:40 .... *****************************************************
+2019-11-15 15:18:40 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_soem_hw.avsc
+2019-11-15 15:18:40 .... Se creara tabla: tx_soem_hw
+2019-11-15 15:18:40 .... Location es: hdfs:/data/RCI/stg/hive/staging/Gestores/SOEM/HW
+2019-11-15 15:18:40 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-15 15:18:40 .... *****************************************************
+2019-11-15 15:18:40 .... Generar el avsc generico
+2019-11-15 15:18:40 .... Schema:/files/working_dir/RCIschemas/tx_soem_hw.avsc.
+2019-11-15 15:18:40 .... Contador:1.
+2019-11-15 15:18:40 .... leer procesados de:
+2019-11-15 15:18:40 .... /files/working_dir/RCIschemas/processed/tx_soem_hw.avsc_processed
+2019-11-15 15:18:40 .... Archivo hist:
+2019-11-15 15:18:40 .... No hay cambios:create
+2019-11-15 15:18:49 .... *****************************************************
+2019-11-15 15:18:49 .... 2)Resultado de kite-dataset create tx_soem_hw
+2019-11-15 15:18:49 .... 1
+2019-11-15 15:18:49 .... *****************************************************
+2019-11-15 15:18:58 .... *****************************************************
+2019-11-15 15:18:58 .... 3)Resultado de kite-dataset schema tx_soem_hw
+2019-11-15 15:18:58 .... 1
+2019-11-15 15:18:58 .... *****************************************************
+2019-11-15 15:18:58 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-15 15:18:58 .... ./files/working_dir/RCIschemas/tx_soem_hw.avsc.
+2019-11-15 15:18:58 .... ./files/working_dir/RCIschemas/tx_soem_hw.avsc.
+2019-11-15 15:18:58 .... name:/files/working_dir/RCIschemas/processed/tx_soem_hw.avsc_processed.
+2019-11-15 15:18:58 .... *****************************************************

@@ -1,0 +1,36 @@
+Inicio ejecucion     : 2019-11-15 22:09:00
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-15 22:09:00 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-15 22:09:00 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-15 22:09:00 .... *****************************************************
+2019-11-15 22:09:00 .... Fecha entera obtenida: 20191115
+2019-11-15 22:09:00 .... Fecha anterior obtenida: 20191115
+2019-11-15 22:09:00 .... *****************************************************
+2019-11-15 22:09:00 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_netcm_others.avsc
+2019-11-15 22:09:00 .... Se creara tabla: tx_netcm_others
+2019-11-15 22:09:00 .... Location es: hdfs:/data/RCI/stg/hive/staging/Gestores/NECTM/OTHERS
+2019-11-15 22:09:00 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-15 22:09:00 .... *****************************************************
+2019-11-15 22:09:00 .... Generar el avsc generico
+2019-11-15 22:09:00 .... Schema:/files/working_dir/RCIschemas/tx_netcm_others.avsc.
+2019-11-15 22:09:00 .... Contador:1.
+2019-11-15 22:09:00 .... leer procesados de:
+2019-11-15 22:09:00 .... /files/working_dir/RCIschemas/processed/tx_netcm_others.avsc_processed
+2019-11-15 22:09:00 .... Archivo hist:
+2019-11-15 22:09:00 .... No hay cambios:create
+2019-11-15 22:09:10 .... *****************************************************
+2019-11-15 22:09:10 .... 2)Resultado de kite-dataset create tx_netcm_others
+2019-11-15 22:09:10 .... 0
+2019-11-15 22:09:10 .... *****************************************************
+2019-11-15 22:09:20 .... *****************************************************
+2019-11-15 22:09:20 .... 3)Resultado de kite-dataset schema tx_netcm_others
+2019-11-15 22:09:20 .... 0
+2019-11-15 22:09:20 .... *****************************************************
+2019-11-15 22:09:20 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-15 22:09:20 .... ./files/working_dir/RCIschemas/tx_netcm_others.avsc.
+2019-11-15 22:09:20 .... ./files/working_dir/RCIschemas/tx_netcm_others.avsc.
+2019-11-15 22:09:20 .... name:/files/working_dir/RCIschemas/processed/tx_netcm_others.avsc_processed.
+2019-11-15 22:09:20 .... *****************************************************

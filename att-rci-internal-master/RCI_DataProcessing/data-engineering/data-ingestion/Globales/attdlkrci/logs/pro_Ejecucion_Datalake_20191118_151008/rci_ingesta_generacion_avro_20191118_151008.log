@@ -1,0 +1,37 @@
+Inicio ejecucion     : 2019-11-18 15:10:08
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-18 15:10:08 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-18 15:10:09 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-18 15:10:09 .... *****************************************************
+2019-11-18 15:10:09 .... Fecha entera obtenida: 20191118
+2019-11-18 15:10:09 .... Fecha anterior obtenida: 20191118
+2019-11-18 15:10:09 .... *****************************************************
+2019-11-18 15:10:09 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_almacen_inventory.avsc
+2019-11-18 15:10:09 .... Se creara tabla: tx_almacen_inventory
+2019-11-18 15:10:09 .... Location es: hdfs:/data/RCI/stg/hive/staging/SA/inventory
+2019-11-18 15:10:09 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-18 15:10:09 .... *****************************************************
+2019-11-18 15:10:09 .... Generar el avsc generico
+2019-11-18 15:10:09 .... Schema:/files/working_dir/RCIschemas/tx_almacen_inventory.avsc.
+2019-11-18 15:10:09 .... Contador:1.
+2019-11-18 15:10:09 .... leer procesados de:
+2019-11-18 15:10:09 .... /files/working_dir/RCIschemas/processed/tx_almacen_inventory.avsc_processed
+2019-11-18 15:10:09 .... Archivo hist:/files/working_dir/RCIschemas/processed/tx_almacen_inventory.avsc_processed
+2019-11-18 15:10:09 .... diferencia:Files /files/working_dir/RCIschemas/processed/tx_almacen_inventory.avsc_processed and /files/working_dir/RCIschemas/tx_almacen_inventory.avsc differ.
+2019-11-18 15:10:09 .... Si hubo cambios:update
+2019-11-18 15:10:18 .... *****************************************************
+2019-11-18 15:10:18 .... 2)Resultado de kite-dataset update tx_almacen_inventory
+2019-11-18 15:10:18 .... 0
+2019-11-18 15:10:18 .... *****************************************************
+2019-11-18 15:10:28 .... *****************************************************
+2019-11-18 15:10:28 .... 3)Resultado de kite-dataset schema tx_almacen_inventory
+2019-11-18 15:10:28 .... 0
+2019-11-18 15:10:28 .... *****************************************************
+2019-11-18 15:10:28 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-18 15:10:28 .... ./files/working_dir/RCIschemas/tx_almacen_inventory.avsc.
+2019-11-18 15:10:28 .... ./files/working_dir/RCIschemas/tx_almacen_inventory.avsc.
+2019-11-18 15:10:28 .... name:/files/working_dir/RCIschemas/processed/tx_almacen_inventory.avsc_processed.
+2019-11-18 15:10:28 .... *****************************************************

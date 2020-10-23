@@ -1,0 +1,37 @@
+Inicio ejecucion     : 2019-11-15 13:21:43
+Script               : /home/raw_rci/attdlkrci3/shells/rci_ingesta_generacion_avro.sh
+Numero de argumentos : [5]
+#---------------------------------------------------------------#
+#---------------------------------------------------------------#
+2019-11-15 13:21:43 .... Lectura del archivo: /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties
+2019-11-15 13:21:43 .... /home/raw_rci/attdlkrci3/config/pro_rci_ingesta_generacion_avro.properties listo para leer.
+2019-11-15 13:21:43 .... *****************************************************
+2019-11-15 13:21:43 .... Fecha entera obtenida: 20191115
+2019-11-15 13:21:43 .... Fecha anterior obtenida: 20191115
+2019-11-15 13:21:43 .... *****************************************************
+2019-11-15 13:21:43 .... Se procesara el archivo: /files/working_dir/RCIschemas/tx_soem_hw.avsc
+2019-11-15 13:21:43 .... Se creara tabla: tx_soem_hw
+2019-11-15 13:21:43 .... Location es: hdfs:/data/RCI/stg/hive/staging/Gestores/SOEM
+2019-11-15 13:21:43 .... Path respaldo: /files/working_dir/RCIschemas/processed/
+2019-11-15 13:21:43 .... *****************************************************
+2019-11-15 13:21:43 .... Generar el avsc generico
+2019-11-15 13:21:44 .... Schema:/files/working_dir/RCIschemas/tx_soem_hw.avsc.
+2019-11-15 13:21:44 .... Contador:1.
+2019-11-15 13:21:44 .... leer procesados de:
+2019-11-15 13:21:44 .... /files/working_dir/RCIschemas/processed/tx_soem_hw.avsc_processed
+2019-11-15 13:21:44 .... Archivo hist:/files/working_dir/RCIschemas/processed/tx_soem_hw.avsc_processed
+2019-11-15 13:21:44 .... diferencia:Files /files/working_dir/RCIschemas/processed/tx_soem_hw.avsc_processed and /files/working_dir/RCIschemas/tx_soem_hw.avsc differ.
+2019-11-15 13:21:44 .... Si hubo cambios:update
+2019-11-15 13:21:53 .... *****************************************************
+2019-11-15 13:21:53 .... 2)Resultado de kite-dataset update tx_soem_hw
+2019-11-15 13:21:53 .... 1
+2019-11-15 13:21:53 .... *****************************************************
+2019-11-15 13:22:02 .... *****************************************************
+2019-11-15 13:22:02 .... 3)Resultado de kite-dataset schema tx_soem_hw
+2019-11-15 13:22:02 .... 0
+2019-11-15 13:22:02 .... *****************************************************
+2019-11-15 13:22:02 .... Res borrar /files/working_dir/RCIschemas/processed//:0
+2019-11-15 13:22:02 .... ./files/working_dir/RCIschemas/tx_soem_hw.avsc.
+2019-11-15 13:22:02 .... ./files/working_dir/RCIschemas/tx_soem_hw.avsc.
+2019-11-15 13:22:02 .... name:/files/working_dir/RCIschemas/processed/tx_soem_hw.avsc_processed.
+2019-11-15 13:22:02 .... *****************************************************

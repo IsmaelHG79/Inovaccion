@@ -1,0 +1,15 @@
+[
+{
+  "name" : "year",
+  "source" : "filedate",
+  "type" : "year"
+}, {
+  "name" : "month",
+  "source" : "filedate",
+  "type" : "month"
+}, {
+  "name" : "day",
+  "source" : "filedate",
+  "type" : "day"
+}
+]
